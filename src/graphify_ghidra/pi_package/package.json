@@ -1,0 +1,28 @@
+{
+  "name": "graphify-ghidra-pi",
+  "version": "0.1.0",
+  "description": "Pi tools and skill for graphify-ghidra, native graphify and REA tools, and a compact_context tool",
+  "keywords": [
+    "pi-package",
+    "ghidra",
+    "reverse-engineering",
+    "graphify",
+    "rea"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/graphify-ghidra.ts",
+      "./extensions/graphify-native.ts",
+      "./extensions/rea-native.ts",
+      "./extensions/context-compact.ts"
+    ],
+    "skills": [
+      "./skills"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  }
+}

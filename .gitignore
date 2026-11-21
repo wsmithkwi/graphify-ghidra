@@ -1,0 +1,8 @@
+__pycache__/
+*.egg-info/
+.pytest_cache/
+graphify-out/
+*.ghidra.json
+*.ghidra.log
+engine/target/
+src/graphify_ghidra/bin/
